@@ -14,7 +14,7 @@ import {
 
 const Home = ({ id, go, fetchedUser }) => (
   <Panel id={id}>
-    <PanelHeader>Почему не работает то епта</PanelHeader>
+    <PanelHeader>О заработало</PanelHeader>
     {fetchedUser && (
       <Group
         header={
@@ -47,7 +47,7 @@ const Home = ({ id, go, fetchedUser }) => (
           onClick={go}
           data-to="persik"
         >
-          Show me the Persik, please
+          Кажи кота, пожалуйста! :(
         </Button>
       </Div>
     </Group>
